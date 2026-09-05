@@ -126,3 +126,5 @@ action won't show up in `/audit`.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+# canary: sync-repo reaches this checkout
