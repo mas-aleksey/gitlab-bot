@@ -1,0 +1,767 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/acme-dev%2Fplatform%2Fbackend
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAC/51XS3PbNhD+Kx4dO5UoylKc6JTONMdeOjml08GA4FJCBAIIHpJdj/97d0FSpB6m
+        LV/iCPvA4tvdb5fPE1lO1nf5py+/301K8MJJG6TReDZxUHIRoJygSPMa6Cx6cPm8O2EHGbaM/uct
+        F0eF5V12R3/v27+NgeVhSxoFFzvQZXd0xQcXNUxL2GdW8VAZV2cDG+GAY1CMB1JdzBeraZ5P8/n3
+        /H69ytfLh9nyYfljkp5T8agCKxzXIl2NPkkQ+IYp6cnBP//Sb2Ol8N0v77csOsWCYQ6sIbuNDF83
+        agaPvLYKZsLU61djnKEyXbINwZ77oTO/zrJTX9mbvg5QkKuPuCBzRKzEZH3QQzbNCmWKjGR/f/vj
+        z7++zerkFpV2ngkTNSE5xxO+54G77qIsWmV46bPmeGb1hsw8qXRWCzxQ3AeGlSb3Mjz1ef00nT9M
+        F/n3Rb5eLdaLz7Pl51XK6156WUiFyqRpnUT30JVkV0TPTWHfLx7Oqvd+WIvdW+lsJ3WZku1MtOl9
+        USnWaV7A07hxoANLNy1W7wXg7WymEPxlSiYvaI6lq3c+PdGDqsZSamW2X2bWmZ8ggs+wy+l+6X0E
+        f5td1hqheQ1uA1jSv/B3uNXNmXEqTmvaFr05KLL1Mhj3lB09pIIqQN3qqzVCc9hjUm81b40SPnUB
+        7nZgGitiOBV9AMf45gNxnBlTwdTc7ZAwsYBYCQqI3psu01jgr8jTBGjl2FE7dOcZaF4ooGIPLgIh
+        VVvs2JbdKq48HXIntnKf1LojB96oPTATQ5nIu5RVhf94Eb3H6/xAVxgduNT4BHi00vEUjjVKiqdU
+        84KXoJs5kSca6qPqXOwALKMH5ERKRpXoLGx5Gmpf5sd5hoFv4JEOZ7+dnjHy0AOg4TEwF/X5zMn7
+        mbNaLn4ksPuSZKagtBCudWPotzzvG/ASztPmuJQf5E5env40xRVdr6W1cM1LDzC+FacgRnppDW4v
+        BWA9+B27BPhEzMsS8+t7uATXrJnS7ORFTOr+hhYDLgTaMoXtkwixu+sUyRGtM8xGNGlcSb0ZU0kA
+        j8iLKFU5eskR9hEdm5rpXGEwx7jm6ingSjLm5Uoax+ICEV0ar7rE4YsUIpEvYSwKh1zA/XiOQO+l
+        M7omrhnFHqshOmCV4ptRRakrh+uAiyLpjyXeaCqOcRXkM6IRcPLNEBvl92DZ8uG7dKHmUnmiuvMe
+        aiWXrbc1h4YfrYO9hAO2DUvKQx1cPEqiJMz/FR+qutb31JIIWLPwL4kaZW2NCww3shDToNFGp9wb
+        C5q1LTpc8AZfCGwbanX+mRBtebqcv7rECYmOdSU3xw0rQRsLJHpGlHbx2vSd0GxG3aputEL0lULE
+        Gh6QiJq0gBsSMB8xLVAOZ8tQFV/gd9Ss5dGkp7COsdrMXmB57WL8ORxpDINm7eA7nYW1wVHoTXTY
+        f83awnhFMzu56i/BXtSBGOuURWn9e2121BC2Jm2xjS9C71fk+EVjjp913WeRqaqmhZEYiQkiwosb
+        lMCdHrFpV9dBFuIGaStlHvmjlgEv855vBqg1MbTSgMuBIio5ittIXpWneusQGYhTZRy4w/lb4AaB
+        y0DAZpaI9xOL+sA1VZzAIqEydIOQ8UlGKOMJuwocrQ0lO26/HXD8EVMVZIXWnnn531kZSExY4o7L
+        MXgi/gD5XhnNRxnSYA0H+sLqih1ZrJbHdel50q597cV90KlF+tPnyVlk99TI2uCLpWi2q6Pk5eXl
+        f9bonMYREAAA
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:40 GMT
+      etag:
+      - W/"7687977bc676b2659e25a42a4349ef71"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBAWB9KW1K575PX2EWYPC","version":"1"}'
+      x-request-id:
+      - 01KY3BBAWB9KW1K575PX2EWYPC
+      x-runtime:
+      - '0.164903'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/169/pipelines?order_by=id&sort=desc&per_page=1&page=1
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAC/32QyU7EMBBEf2WUM4mXJI6d7+AEQpGXzkzAToyXAQnx79iBM6fuKr1qqfr5q9lM
+        M18YH6f+4dJspyKc9bwoH45X0Gn5NZkoVrzJsjdC095gNU1EUCoUNpyoaRh6RRk2imgquNIrlU2J
+        BFhrpIyIHIQrtAHeM8QUEWMC3UCaisUkU46VjFlriPE0jxw0VPNMLn/JBe6wpwroADKBWWSqEMWU
+        tXhqKXmkZB6HmYydYPipktmb/8hx7DijJ/kBasnBVuyWko8zQlfbwad03kKnD4ekdtAauCNvZVqP
+        4JCS+g12g1rkNw9226G0q0+tB3fpaoc9W/v98gPri+R3cwEAAA==
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:41 GMT
+      etag:
+      - W/"7235873e4a124d9068ff872d37872059"
+      link:
+      - <https://gl.example.com/api/v4/projects/169/pipelines?id=169&order_by=id&page=2&per_page=1&sort=desc>;
+        rel="next", <https://gl.example.com/api/v4/projects/169/pipelines?id=169&order_by=id&page=1&per_page=1&sort=desc>;
+        rel="first", <https://gl.example.com/api/v4/projects/169/pipelines?id=169&order_by=id&page=360&per_page=1&sort=desc>;
+        rel="last"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBB4KS0YK9MJR6PJV5QCC","version":"1"}'
+      x-next-page:
+      - '2'
+      x-page:
+      - '1'
+      x-per-page:
+      - '1'
+      x-prev-page:
+      - ''
+      x-request-id:
+      - 01KY3BBB4KS0YK9MJR6PJV5QCC
+      x-runtime:
+      - '0.055916'
+      x-total:
+      - '360'
+      x-total-pages:
+      - '360'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/169/pipelines/68573
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAC/5VUQZKbMBD8ypbPwSAhQPgVOeSUi2okBqNEgCIJZ1Nb+/dIMuvYOWw2XNB0dcNM
+        T8PLQQ+H01PLm67+9HTQuSK8rXmsrFu/oQriCrZ9hPwE8XzoFa2HSnYd6SntZTVwIjvGaknbapBE
+        0Z5LNVI4RInDMUnizZczujMWDn9s6IMv27YvJ4Qh0XyAsPnE9JtS6H0G180pTGBWil0p8IJLSATl
+        EAIOAkIi0Yq2RdUVlHyh5NSwE2mOfVt9TczNDu8xm+bIW5qZP1GKzZlEm0Kw/lSWZ3PEZ5itwaNa
+        5xLUjMWAl9IaCOPq5lKC+o7LUBal1RaNXjBOl0xND5QYOSh276oPXkkZ4BwlIxiPsfoFsxHo3OqS
+        T8tmTJrLo4vVy3WRpKY7tsCcjUtnktuwmzRaCZxBmz/6Bx5720SGQAV9wQSZNY433LUCFwjg/mVT
+        Jh3tcv6YrXurr9ce3DvbouRYN03e1qgX7af3F8tYpsZ3zDrcHrsbMGwOgl6XiNAu1jFhW6TcwU3W
+        XtDBGe90GKKRkXlLbtyByoI9zOIuyQGfc3+fwXvMgTcgMbthb9DZrZv96xMI62qCto/ECby4vt/f
+        LWVHhIUwJf7/5lQbs/lwG3ufc4TL21hlaiB+t0qLHfXlfhCPIxecNaSu64oQROQK+/g3kLQZFOPd
+        iJQB7xqu2p5x2kHD6Ui6kVFZQV8x1gLNqUlJAKemmML78O2RTf29/gbX8GnhwQQAAA==
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:41 GMT
+      etag:
+      - W/"b12852e09aaf4770aabe6e4053924c28"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBB98BRG5B5KXAHJX2R5E","version":"1"}'
+      x-request-id:
+      - 01KY3BBB98BRG5B5KXAHJX2R5E
+      x-runtime:
+      - '0.062072'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/169/pipelines/68573/jobs?scope%5B%5D=manual&per_page=100&page=1
+  response:
+    body:
+      string: '[]'
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '2'
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:41 GMT
+      etag:
+      - W/"4f53cda18c2baa0c0354bb5f9a3ecbe5"
+      link:
+      - <https://gl.example.com/api/v4/projects/169/pipelines/68573/jobs?id=169&include_retried=false&page=1&per_page=100&pipeline_id=68573&scope%5B%5D=manual>;
+        rel="first", <https://gl.example.com/api/v4/projects/169/pipelines/68573/jobs?id=169&include_retried=false&page=1&per_page=100&pipeline_id=68573&scope%5B%5D=manual>;
+        rel="last"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBBE4S1HPVZRPX84DVA67","version":"1"}'
+      x-next-page:
+      - ''
+      x-page:
+      - '1'
+      x-per-page:
+      - '100'
+      x-prev-page:
+      - ''
+      x-request-id:
+      - 01KY3BBBE4S1HPVZRPX84DVA67
+      x-runtime:
+      - '0.053623'
+      x-total:
+      - '0'
+      x-total-pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/169/pipelines/68573/jobs?scope%5B%5D=success&scope%5B%5D=failed&scope%5B%5D=canceled&scope%5B%5D=skipped&per_page=100&page=1
+  response:
+    body:
+      string: '[]'
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '2'
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:41 GMT
+      etag:
+      - W/"4f53cda18c2baa0c0354bb5f9a3ecbe5"
+      link:
+      - <https://gl.example.com/api/v4/projects/169/pipelines/68573/jobs?id=169&include_retried=false&page=1&per_page=100&pipeline_id=68573&scope%5B%5D=success&scope%5B%5D=failed&scope%5B%5D=canceled&scope%5B%5D=skipped>;
+        rel="first", <https://gl.example.com/api/v4/projects/169/pipelines/68573/jobs?id=169&include_retried=false&page=1&per_page=100&pipeline_id=68573&scope%5B%5D=success&scope%5B%5D=failed&scope%5B%5D=canceled&scope%5B%5D=skipped>;
+        rel="last"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBBJTWQ2X4PNSZF212ZD5","version":"1"}'
+      x-next-page:
+      - ''
+      x-page:
+      - '1'
+      x-per-page:
+      - '100'
+      x-prev-page:
+      - ''
+      x-request-id:
+      - 01KY3BBBJTWQ2X4PNSZF212ZD5
+      x-runtime:
+      - '0.052314'
+      x-total:
+      - '0'
+      x-total-pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/169/pipelines/68573/bridges?per_page=100&page=1
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAC/+2cy27bOhBAf6XQ9l5LfOjp1f2IrFoUAiXRNltJVCnKLlr03y+pR2QnaZy6McDF
+        rAIOR8PhzHAOI0D+9NMTlbf9QOI0Q/TfD16vmR56I/Ea1g6s9ibZnluR5r22gpY143jouaLYShTf
+        WYH50wcNV3u+UfzbYNT7II6z4MBZZdWMIaO2Y3XPzaiUR64m0+1Q10bC6lqe8h0T9aCsWKthVFSc
+        aV7lTNtFCCLxBiUbgh8I3kbhFsc+CeOPs6vqUXM2uhOt6A9PhGbh/omoGhTTQrarxOxgMErPJ+zG
+        zWgOHqZklp0HBlPrUDcUtShz3pg9rc9f6IWz43oUsVKLI7eiWpZfeXUWL3ZkZnv5oKwl76B112+D
+        YF/7/Dtrupr7pWyCScnv2r21ceLFFf3V1WdRjjYYbVD6gNEWkS1OfByGY5QLIa3K7OQSm2ksWuO0
+        eBzrk9B6DNY4rERfSlUtQ+NeLzRfXLSivdCHoVhGX2SRa6Frvgg6JVs5tP0aS6n2rBU/LrwopD6L
+        20mqr7lod1I1T/K4k7bguLLm0ONYtPt5bHdXGweapUZ/jWXbNEKv6feyktAKFUmCM0KyAlUpLpIw
+        pAWJUVXgkmRpUe4IG/N8kErnl895vy9x8oDQNjJVnvkIoX8Q3SI0hoEp3lo71vNPXhZjFmfVLo0p
+        oxVlSZTxpCw4jkwWk4LHu6hkrEq9zzYlSzwVr0y18fFkNrzv51N+LmaDNg7nFweenE0sdT3N0P/O
+        KmvVskdoru6rG5uCayrmhTXXuSvLLop/sK5WxuJUCD9tkvl3zdvKWHg6cf1EsbLhm4ofg65m2hZd
+        UDBzktsq2ASTZ8GbK8au2ImOm2PF14qL0yixzVpM7cdkPZ2OxhdezsWF42ysNvanBfrGTr5yoh/K
+        0hTPKJSDKsd4j0/m85M5P5pi9d7QyCM/i9HYYoauek0zivw0Jh+9v07IElyzOxtU7+9TbFpWH0w8
+        9dasjMkrRT42NGlUc9MIO57zlhX12uXt8pU8tb02kWrys9TP3eec1+QmXodO8Jpi4DXwGngNvAZe
+        A6/d4DW5M6/xTbyOnOA1joDXwGvgNfAaeA28doPX+M68Rr/Nw6vAju8I7EfNq8TGGX1O7OeaBPlp
+        MiX6kuMv1kRMJqOv052GfhJhlEUvIp74NEGEUsA8YB4wD5gHzAPmX8U8ek/Mn6U+vEh95ljq59b0
+        6Pr1tBPiJ5S+Me0kou+e9tD7dXGDSrPspjceiQtvPEz64Y0HXIXgKgRXIbgKwVXIhauQ4eld33ik
+        WXoTr1MneB1R4DXwGngNvAZeA6/d4HV6Z14nN/E6c4LXFP6/Bl4Dr4HXwGvgtSO8Tu7M6/gWXofI
+        CV6jFHgNvAZeA6+B18BrN3gd35nX0U28duKLeJTAF/HAa+A18Bp4Dbx2hNfRnXkd3sRr4gSvQ/gi
+        HngNvAZeA6+B147wOrwzr2/6xbmQOsFrBLwGXgOvgdfAa+C1I7x+/1+c+/w/DTP3GiJWAAA=
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:41 GMT
+      etag:
+      - W/"48edac0c87e32dbbb7367d299c07fdd8"
+      link:
+      - <https://gl.example.com/api/v4/projects/169/pipelines/68573/bridges?id=169&page=1&per_page=100&pipeline_id=68573>;
+        rel="first", <https://gl.example.com/api/v4/projects/169/pipelines/68573/bridges?id=169&page=1&per_page=100&pipeline_id=68573>;
+        rel="last"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBBQCSKWPNGFTZGVGV91Y","version":"1"}'
+      x-next-page:
+      - ''
+      x-page:
+      - '1'
+      x-per-page:
+      - '100'
+      x-prev-page:
+      - ''
+      x-request-id:
+      - 01KY3BBBQCSKWPNGFTZGVGV91Y
+      x-runtime:
+      - '0.124674'
+      x-total:
+      - '11'
+      x-total-pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/169/pipelines/68574
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAC/5VUy5LbIBD8lS2fowcIvfwVOeSUi2pAI4kESQSQs6mt/fcAlh05B2fji5l2N5rp
+        afntJPvT+aVqypp9ejnJWJGmKlpfabN+Q+G6K1gFyE7gz6dW0KLPeV2TltKW531DeM1YwWmV95wI
+        2jZcDBROXmJwCBL/ZbMZzYiJwR8bWmezqmqzCaEPNOvAbTYw7SYEWhvBdTMCA6jB4OI6LTUquWD4
+        URgEh30HLhBoTqskrxNKvlByLtmZ0rQuiq+Buen+GbMsU1pemT+Rd5tRgTY5p+05y0aV4ivMWmEq
+        1jkDMWPS4yXTCtywmjnjIL7j0mdJduvOTxYMDRdy9Bzsdt/yD36C0sHoJQMoi776BbPq0JjVBI+W
+        Takwl0Xjq7frEklBd2yBOZoWzqQIl+mNKyk6nEGqP/oHHrttIUIgnLxEm9Xqx+sPrcAFHJh/2RRJ
+        qV7Gj9m6t/p+7cE822udFoTFbQ1ykXZ6vljSRKp/xizd/drdgH4z4OS6eITWvva53DzlALOovaCB
+        EQ86dN5Iz7yn1u9ARMEe5O6QYoevsb/PYC3GsCvgqK6xvkGjWTf9V/zduion9SNxAttdn28PS9mR
+        ToObAv9/cyqV2qy7j73POcDlNlYWGvDvrJDdjtpsP3SPIycNK0lRFDkhiNgIbP0/AadlL1hTD0gZ
+        NHXZiKplDa2hbOhA6oFRnkObM1YBjakJSQAjJp/CY/j2yIb+3n8D/O2zVr0EAAA=
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:41 GMT
+      etag:
+      - W/"0f593bd2f680661deea1ce29bd93013f"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBBY6C02QJ6NCPS5KTBHC","version":"1"}'
+      x-request-id:
+      - 01KY3BBBY6C02QJ6NCPS5KTBHC
+      x-runtime:
+      - '0.081068'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/169/pipelines/68574/jobs?scope%5B%5D=manual&per_page=100&page=1
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAC/+1Wy3KcOhD9lRTbGwYhhtes8hFeJeWiBGpmFIMgetiupPLvtyVgwM7NtZMsklSx
+        ovqoabX6eT58CQQPTm9oVpQkf/sm0IYZqxEJeiYt64IJO4ODais67hDJeg9YDep4dIiC1gH40VEP
+        6gyhgk8WtNFRlpXRBZj/ES2hWss6DSg1wz2oyba0XYcI67rhoWqZ6KxysFHWKypgBnjFjLuEEpqF
+        JA9pfEPjU3o8UXooaPp+9lVdNWejrZBCX56BeLF+BnGrmBGDXBF8gUWlbw/cw1GaoxcndMa2gYkT
+        59Bo6040FfT4pvX/J3rH2XHjIdYYcQ8O6obmDvgmXuye4fMqq5yl4GLMqE9RdO4O8Mj6sYNDM/TR
+        pHQY5dnZeID6Bf3V1W+inIYxCUlxE5MToac4P8THo49yLQanMju5xGaShUSnxVU2D8IYHywvcqGb
+        QfFFRPe0MLC46KCzMBdbL9LHoa6MMB0swKgGOVip11gO6syk+PzEi3owm7g9DOquErIdVP8sj+3g
+        Cg6UM0euspDnWXav69CBfqnRr75s+16YNf1B2dCEkzrP45LSsia8iOv8eExqmhFexw0ti7ppKfN5
+        vgzKVE//C75f4vSGkFOKVV4eCCH/kOREiA8DUyCdHef5h6DMYpaVvC2yhCU8YXlaQt7UEKeYxbyG
+        rE0bxngR3LqULPFUwLHawHdmD1rPbb6FmTXocLWt14RuDpa6nk6Sd5vKWrVcC83V/eLDpuBixfzH
+        nevZC9cuij9wr1FocSqELy7J8GhAcrTw/ODljmJNDyGH+2jsmHFFF9UMO1nyKIwmz6JXV4y7cRQj
+        YFvBWnFZkeZHPBHT+MGsl1NrfIRmLq44K321sR8t0FdO8nVRaNs0WDweHKxqfLzn+ry6/qohnieJ
+        Hy925P+nmaYHmk6av5aMxTt8mQto8OvpxXGlo2mZBmtGfOIaUflhNqBqhUNwhAokq7t1wrvrcXuJ
+        FrvPt7VrVmWl9ONznliTXOF2xm7d4NcfK3gchYInm42p5oJLZbtLcBNXndDGjw+D6Q3vCh1yt3JU
+        6Bc9Wr9Fl7YMIfs5hpD+EQyB5DtD2BnCzhB2hrAzhJ0h/H6GkP1NDOF7jCD9OUaQ/QmMIM/LnRHs
+        jGBnBDsj2BnBzgh+PyNI/05GcPsvCg+2b0YYAAA=
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:42 GMT
+      etag:
+      - W/"e240b87d113ee8131a0e8667e67e9e04"
+      link:
+      - <https://gl.example.com/api/v4/projects/169/pipelines/68574/jobs?id=169&include_retried=false&page=1&per_page=100&pipeline_id=68574&scope%5B%5D=manual>;
+        rel="first", <https://gl.example.com/api/v4/projects/169/pipelines/68574/jobs?id=169&include_retried=false&page=1&per_page=100&pipeline_id=68574&scope%5B%5D=manual>;
+        rel="last"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBC3N25HXXE35VTK2TQF5","version":"1"}'
+      x-next-page:
+      - ''
+      x-page:
+      - '1'
+      x-per-page:
+      - '100'
+      x-prev-page:
+      - ''
+      x-request-id:
+      - 01KY3BBC3N25HXXE35VTK2TQF5
+      x-runtime:
+      - '0.111997'
+      x-total:
+      - '3'
+      x-total-pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/169/pipelines/68574/jobs?scope%5B%5D=success&scope%5B%5D=failed&scope%5B%5D=canceled&scope%5B%5D=skipped&per_page=100&page=1
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAC/6VW227bOBD9lUKvW0skdddTsVhg9wPysikKgSJpm61EaUnKSRrk33dISZbcOE2a
+        AgECjsbk8MyZc/j5MZA8qD6QrChR8vFDYCy1o4FIYEbGhDHBFDwIF2tG2XIXUbTzgdEIneQuosXe
+        BeCfiTqhD2KnxX+jMNZEWVZGR0H9D2EnSNvT1ghYsf4k9LS3GtsWIrRt+7t6T2U7ahe2evSJWlAr
+        eE2tO4Qgku1QviP4huAqTSpCwjzFt3Ot+meZWVii2GfupZLm+HJqmoQFSnwqFGmWxLlQPmpqZa8c
+        eDnsiXNMIAxXHiFz8zUOkwzFafFxQgsiM+Y4JnNsiyaO3YHD2LSS1aIDINYzL/KS+bbWhyiz8iRc
+        qO3ZN8E3INMTBUzqUbudgqO1g6mi6NCG4p52QytC1nfRlBQO6uD2uBPNK/lrqc9ak+4w2qHiBqMK
+        kQrnIU4mFBvZu5S5yAWfaS0VFC3Pa3snrfVg+SWXhvWaL0soz0grlhJd6CDtcWyW1de+qa20rVgC
+        g+5VPyqzYtnrA1Xy+0UVTW83uN31+lst1b7X3ZI1/3bfO5YK7bZD57VUh3ntbtdCAd1C7CfP9a6T
+        dm1/UDISc9TkOS4JKRvEC9zkSRI3JEO8wYyURcP2hPo+H3tt68vfBS/PBblBqEqBxWWIEPoDxRVC
+        HgaqhXL7uMo/B2WGaVbyfZHFNOYxzdNS5KwROIUu5o3I9imjlBfBF9eSBU8tOLBN+HHuQCFmbdiG
+        6Wih4HrL15hsPiy8nr7EnzbMWrPcGM3sfvViE7jAmCtnrt9eOXZJ/IVzrYYdJyI8uiaLeysUhx1+
+        /PD6RFHWiR0Xp2hoqXWkixoKk6x4tIumyqI3M8adOMhBwFiJlXFZkeZO4+UkP9D1chqNr4LN5MJZ
+        6dlGf5Wgb5T/6/bSj5p5vGd+nkt/m/LHk56PA/9ZZpqGJJ0yf68ZS3VwMwdo8PvtBbky0WTBwdoR
+        3zgmay9mPaTWIIKDqIWiTbsqvDseLE/uYfr8WD+Cs7Witg+DxxSYyDySRn53AQw1F97+WrEMCxwR
+        tv0hmMP1pHmLeLnp16NSF+ZV5LkTZmGYlsMiolsNkENNOdeux6u7Ty51tvWBwiRuvUqaGsinfWzO
+        mU4+X0cq4JBi8/1WU1xkXc2c/+Hh0Dystcf5Fd9Niiu+Gzx765Tvc91oHNqecvMun4XSnq4bLYK/
+        /AYVoEsVKcI4i28vp2yGY7ZEcS/Y6HpVrxmSg6o/rTh3VIGgbzpdIJRnztXMg7Gim01I1/80hz/Z
+        /d9/5TL51x0ALzkz08B5Pg7xpAsnuYRLmJcMl964lilwcShxvPe6r9kRfJ3Z6e0X0I5nycsigNEN
+        jqs4rRK4OilvJw1X1lPwigyQCnQbctOkuH3G0ACnRYgzFILYhZgk78bxPIuQNkgtLl6N/oanC6LA
+        i7hupbHekf0DG9D/8vTlfzeoijSbCwAA
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:42 GMT
+      etag:
+      - W/"88b87d7d18652b62159354959c38ce03"
+      link:
+      - <https://gl.example.com/api/v4/projects/169/pipelines/68574/jobs?id=169&include_retried=false&page=1&per_page=100&pipeline_id=68574&scope%5B%5D=success&scope%5B%5D=failed&scope%5B%5D=canceled&scope%5B%5D=skipped>;
+        rel="first", <https://gl.example.com/api/v4/projects/169/pipelines/68574/jobs?id=169&include_retried=false&page=1&per_page=100&pipeline_id=68574&scope%5B%5D=success&scope%5B%5D=failed&scope%5B%5D=canceled&scope%5B%5D=skipped>;
+        rel="last"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBCA34Y9T94H2YGHSE2A8","version":"1"}'
+      x-next-page:
+      - ''
+      x-page:
+      - '1'
+      x-per-page:
+      - '100'
+      x-prev-page:
+      - ''
+      x-request-id:
+      - 01KY3BBCA34Y9T94H2YGHSE2A8
+      x-runtime:
+      - '0.129716'
+      x-total:
+      - '1'
+      x-total-pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/169/pipelines/68574/bridges?per_page=100&page=1
+  response:
+    body:
+      string: '[]'
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '2'
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:42 GMT
+      etag:
+      - W/"4f53cda18c2baa0c0354bb5f9a3ecbe5"
+      link:
+      - <https://gl.example.com/api/v4/projects/169/pipelines/68574/bridges?id=169&page=1&per_page=100&pipeline_id=68574>;
+        rel="first", <https://gl.example.com/api/v4/projects/169/pipelines/68574/bridges?id=169&page=1&per_page=100&pipeline_id=68574>;
+        rel="last"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBCH3NE9MBN8RHBF1WNSP","version":"1"}'
+      x-next-page:
+      - ''
+      x-page:
+      - '1'
+      x-per-page:
+      - '100'
+      x-prev-page:
+      - ''
+      x-request-id:
+      - 01KY3BBCH3NE9MBN8RHBF1WNSP
+      x-runtime:
+      - '0.066002'
+      x-total:
+      - '0'
+      x-total-pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+version: 1

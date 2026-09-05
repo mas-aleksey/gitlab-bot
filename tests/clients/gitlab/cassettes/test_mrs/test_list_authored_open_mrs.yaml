@@ -1,0 +1,72 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/merge_requests?scope=created_by_me&state=opened&per_page=100&page=1
+  response:
+    body:
+      string: '[]'
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '2'
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:53 GMT
+      etag:
+      - W/"4f53cda18c2baa0c0354bb5f9a3ecbe5"
+      link:
+      - <https://gl.example.com/api/v4/merge_requests?non_archived=false&order_by=created_at&page=1&per_page=100&scope=created_by_me&sort=desc&state=opened&with_labels_details=false&with_merge_status_recheck=false>;
+        rel="first", <https://gl.example.com/api/v4/merge_requests?non_archived=false&order_by=created_at&page=1&per_page=100&scope=created_by_me&sort=desc&state=opened&with_labels_details=false&with_merge_status_recheck=false>;
+        rel="last"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBQGEBJF2KXWJ7XHARFYC","version":"1"}'
+      x-next-page:
+      - ''
+      x-page:
+      - '1'
+      x-per-page:
+      - '100'
+      x-prev-page:
+      - ''
+      x-request-id:
+      - 01KY3BBQGEBJF2KXWJ7XHARFYC
+      x-runtime:
+      - '0.045661'
+      x-total:
+      - '0'
+      x-total-pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,169 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/acme-dev%2Fplatform%2Fbackend
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAC/51XS3PbNhD+Kx4dO5UoylKc6JTONMdeOjml08GA4FJCBAIIHpJdj/97d0FSpB6m
+        LV/iCPvA4tvdb5fPE1lO1nf5py+/301K8MJJG6TReDZxUHIRoJygSPMa6Cx6cPm8O2EHGbaM/uct
+        F0eF5V12R3/v27+NgeVhSxoFFzvQZXd0xQcXNUxL2GdW8VAZV2cDG+GAY1CMB1JdzBeraZ5P8/n3
+        /H69ytfLh9nyYfljkp5T8agCKxzXIl2NPkkQ+IYp6cnBP//Sb2Ol8N0v77csOsWCYQ6sIbuNDF83
+        agaPvLYKZsLU61djnKEyXbINwZ77oTO/zrJTX9mbvg5QkKuPuCBzRKzEZH3QQzbNCmWKjGR/f/vj
+        z7++zerkFpV2ngkTNSE5xxO+54G77qIsWmV46bPmeGb1hsw8qXRWCzxQ3AeGlSb3Mjz1ef00nT9M
+        F/n3Rb5eLdaLz7Pl51XK6156WUiFyqRpnUT30JVkV0TPTWHfLx7Oqvd+WIvdW+lsJ3WZku1MtOl9
+        USnWaV7A07hxoANLNy1W7wXg7WymEPxlSiYvaI6lq3c+PdGDqsZSamW2X2bWmZ8ggs+wy+l+6X0E
+        f5td1hqheQ1uA1jSv/B3uNXNmXEqTmvaFr05KLL1Mhj3lB09pIIqQN3qqzVCc9hjUm81b40SPnUB
+        7nZgGitiOBV9AMf45gNxnBlTwdTc7ZAwsYBYCQqI3psu01jgr8jTBGjl2FE7dOcZaF4ooGIPLgIh
+        VVvs2JbdKq48HXIntnKf1LojB96oPTATQ5nIu5RVhf94Eb3H6/xAVxgduNT4BHi00vEUjjVKiqdU
+        84KXoJs5kSca6qPqXOwALKMH5ERKRpXoLGx5Gmpf5sd5hoFv4JEOZ7+dnjHy0AOg4TEwF/X5zMn7
+        mbNaLn4ksPuSZKagtBCudWPotzzvG/ASztPmuJQf5E5env40xRVdr6W1cM1LDzC+FacgRnppDW4v
+        BWA9+B27BPhEzMsS8+t7uATXrJnS7ORFTOr+hhYDLgTaMoXtkwixu+sUyRGtM8xGNGlcSb0ZU0kA
+        j8iLKFU5eskR9hEdm5rpXGEwx7jm6ingSjLm5Uoax+ICEV0ar7rE4YsUIpEvYSwKh1zA/XiOQO+l
+        M7omrhnFHqshOmCV4ptRRakrh+uAiyLpjyXeaCqOcRXkM6IRcPLNEBvl92DZ8uG7dKHmUnmiuvMe
+        aiWXrbc1h4YfrYO9hAO2DUvKQx1cPEqiJMz/FR+qutb31JIIWLPwL4kaZW2NCww3shDToNFGp9wb
+        C5q1LTpc8AZfCGwbanX+mRBtebqcv7rECYmOdSU3xw0rQRsLJHpGlHbx2vSd0GxG3aputEL0lULE
+        Gh6QiJq0gBsSMB8xLVAOZ8tQFV/gd9Ss5dGkp7COsdrMXmB57WL8ORxpDINm7eA7nYW1wVHoTXTY
+        f83awnhFMzu56i/BXtSBGOuURWn9e2121BC2Jm2xjS9C71fk+EVjjp913WeRqaqmhZEYiQkiwosb
+        lMCdHrFpV9dBFuIGaStlHvmjlgEv855vBqg1MbTSgMuBIio5ittIXpWneusQGYhTZRy4w/lb4AaB
+        y0DAZpaI9xOL+sA1VZzAIqEydIOQ8UlGKOMJuwocrQ0lO26/HXD8EVMVZIXWnnn531kZSExY4o7L
+        MXgi/gD5XhnNRxnSYA0H+sLqih1ZrJbHdel50q597cV90KlF+tPnyVlk99TI2uCLpWi2q6Pk5eXl
+        f9bonMYREAAA
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:56 GMT
+      etag:
+      - W/"7687977bc676b2659e25a42a4349ef71"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBSW2BR24BYR11YJVNMJ1","version":"1"}'
+      x-request-id:
+      - 01KY3BBSW2BR24BYR11YJVNMJ1
+      x-runtime:
+      - '0.166057'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/169/repository/tags?order_by=updated&sort=desc&per_page=5&page=1
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAC/82X3W7jOAyFX6XI7W4bihL146t9iLkbDApSotpik7RwnN0Bin33ldMJJtPGRoJt
+        i72zLR1SPuJn0V+fFxte66K7WlTlYdfrUnre5Pu0+P1qsdbtlu/2o+PtwP2dDuNdjqBBvXOJghg1
+        hJhBxeWE6EKqXDOEGv2oyo/r9cOoel48lEvF2/vHfrj9VbcP2rfVarnl/XIQ0F9DuEbzxWBnqXN4
+        AwC/AXQA4/Qn7nUzxtm26V8XmSgRo82YONVUvNQUydtYTLGJwQHlEN3eAwbSXJFiC2grAKOAaAqg
+        XogrCXvEUnDxbXToYVjt7eq1cG4LfOXi8WPeDe3lbg/277ba49FzXfPD6jBg/tDvvH5a6U1z8+ek
+        ZkBpNpxlwcs2DHoi48+h+aSHeRdkHfoWUPvR9ud/2r1+H3RTWoTXA3+r3O76fe77YXjadsvl3erm
+        aAFLzmu9LvrX8mnFQ33s10vh/GeLtrxevqxseXZljRl7XSlvx9fY7FarsUj6x0H3u9NdVV5t9XWd
+        jfOacgoZA/PMXFB0b5m5QPwLMz9088yYDl3n4iwzVZ3xaE0LKFRriVEyiY/tuS9BvAPvDGbZV2fy
+        3GaWnEJpfluRZGzVihUqFAPGOyXw9C7MwBQ0hBdRc9KECWpgBpu3aee5OZn3k7k5t7o+hhszy01R
+        BA4CioIiTtoXWLGAGIghOBRbjHH1x7HwmptLxMfcHHSz3EDooG1dmuWmEDsbgxaqJjJYa4saVjS1
+        nRoJEI2ETGkv9UkEUUOuqsW69v0KKLlW46mwK8yRAmcL78LN5GFD9hJuTpswwc3ccfM27Sw3p/N+
+        LjdnV9fHcIOz3JCLJpXErdKSsxAFnQNO7CkLtiX7LBVitie5uUR8zM1BN8MNjK1C2zBDs9wopQg+
+        UwAXBMloSqTJhGDa8Q6YksSCYPMoleR8Q6p4SOTQupQy1dYKmETEwaptgZCC+7/0aFMWfGyPNpX1
+        c5k5u7I+hhk7y4w4jbG6HEIKOFZPda2uXKVkMbbvcLtIDjmcZOYS8TEzB900MyZ8gdhZ20GYZQaC
+        L6UyGSyt4fWRkoeKrdvCihia8Q5aO8wvPVqJ7c8G2QexyYg0ssRI6+tC8EDO5NYIULXv81/jpqDB
+        88+aSRMmqHEz2OAFZ81k3s/l5uzq+g/cfPsXe2q1MA8QAAA=
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:56 GMT
+      etag:
+      - W/"f9c32c17ef45fe8daecbc5cadd3392a1"
+      link:
+      - <https://gl.example.com/api/v4/projects/169/repository/tags?id=169&order_by=updated&page=2&per_page=5&sort=desc>;
+        rel="next", <https://gl.example.com/api/v4/projects/169/repository/tags?id=169&order_by=updated&page=1&per_page=5&sort=desc>;
+        rel="first", <https://gl.example.com/api/v4/projects/169/repository/tags?id=169&order_by=updated&page=47&per_page=5&sort=desc>;
+        rel="last"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBT7N6PAA879Y4P27SF34","version":"1"}'
+      x-next-page:
+      - '2'
+      x-page:
+      - '1'
+      x-per-page:
+      - '5'
+      x-prev-page:
+      - ''
+      x-request-id:
+      - 01KY3BBT7N6PAA879Y4P27SF34
+      x-runtime:
+      - '0.068385'
+      x-total:
+      - '233'
+      x-total-pages:
+      - '47'
+    status:
+      code: 200
+      message: OK
+version: 1

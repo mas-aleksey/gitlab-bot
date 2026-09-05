@@ -1,0 +1,66 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/user
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAC/41T227bMAz9lSLPiy+K26R+2kf0qcMgyDbtsJUlg6KSbsP+fZIS5TIMxfxkHh5R
+        h4fUrxUOq/ZhJ748rLwDMmqGEKf/ehXAxXcaewmzQh0TEbsliQg4VpwQ1TMeIELa9u8QS49KOwiA
+        OihWJD2lMqVftFWDK09wsZgpnjpClxl75sW1ZTnpAj7UvGgoejuXF2E9Qbh0kIojW1TicV0167p5
+        qbbtZtdumqLZVK+R2aHNyoMqxWjNJUYTVOIl5iMyA+VwQNdbGnIY1DlkyAojNCHvfZejN9tJRtaQ
+        gYWssd64HFualMGfdxo6yzc2HS29SzSjpTmzjNf6rF2H8sn7jCnH0uFkwpGrE0/r6mktRHRCNK14
+        LkS9SU701oxI86eu1RuRuKl0mifyD3mSe6q9XYs0gctOpJl8vZlSsnIPM8i0XXW6WluSrr9Hgz9v
+        0LOTGmeMkuoqfpHvicD8u7lt6C8Kruu2ei62u8ckGIfAR0aIbn/7HmsoI09rIieyfgk4k4f7zFnC
+        NcdHK8fQeJALRnX6bovhg+Mj0TfQQng4FxoxjT5nghOhK/m5TwvBCKHXQWplJq+mtDxg0rvaq5gg
+        bwyQkzMaz3A167wEQRMp+X9c1+Ms/3Lq9x/A0svMBQQAAA==
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:00:58 GMT
+      etag:
+      - W/"fd7ea6e08b798321569e87cc13f171ff"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3B4HCRBPD91D0RGEN56Y8W","version":"1"}'
+      x-request-id:
+      - 01KY3B4HCRBPD91D0RGEN56Y8W
+      x-runtime:
+      - '0.063316'
+    status:
+      code: 200
+      message: OK
+version: 1

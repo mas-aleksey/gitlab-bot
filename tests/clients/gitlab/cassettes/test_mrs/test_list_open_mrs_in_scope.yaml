@@ -1,0 +1,213 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/groups/acme-dev%2Fplatform
+  response:
+    body:
+      string: !!binary |
+        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
+        AAA=
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:54 GMT
+      etag:
+      - W/"134ef7ee343eab7429753e1bb332014f"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBR45HQ7CGHW6V2CDH0CF","version":"1"}'
+      x-request-id:
+      - 01KY3BBR45HQ7CGHW6V2CDH0CF
+      x-runtime:
+      - '0.597190'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/groups/acme-dev%2Fplatform/merge_requests?state=opened&per_page=100&page=1
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:04:55 GMT
+      etag:
+      - W/"033ebc923ff67132cc2a02991672e531"
+      link:
+      - <https://gl.example.com/api/v4/groups/acme-dev%2Fplatform/merge_requests?id=acme-dev%2Fplatform&non_archived=true&order_by=created_at&page=1&per_page=100&sort=desc&state=opened&with_labels_details=false&with_merge_status_recheck=false>;
+        rel="first", <https://gl.example.com/api/v4/groups/acme-dev%2Fplatform/merge_requests?id=acme-dev%2Fplatform&non_archived=true&order_by=created_at&page=1&per_page=100&sort=desc&state=opened&with_labels_details=false&with_merge_status_recheck=false>;
+        rel="last"
+      nel:
+      - '{"max_age": 0}'
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Accept-Encoding
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3BBRX3Z81ZZCHP0DXGJH85","version":"1"}'
+      x-next-page:
+      - ''
+      x-page:
+      - '1'
+      x-per-page:
+      - '100'
+      x-prev-page:
+      - ''
+      x-request-id:
+      - 01KY3BBRX3Z81ZZCHP0DXGJH85
+      x-runtime:
+      - '0.325514'
+      x-total:
+      - '7'
+      x-total-pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+version: 1

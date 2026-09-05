@@ -1,0 +1,102 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/groups/definitely%2Fdoes-not-exist-xyz-123
+  response:
+    body:
+      string: '{"message":"404 Group Not Found"}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '33'
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:00:59 GMT
+      nel:
+      - '{"max_age": 0}'
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3B4K5F7PXJ54Q6ZHNE6WGC","version":"1"}'
+      x-request-id:
+      - 01KY3B4K5F7PXJ54Q6ZHNE6WGC
+      x-runtime:
+      - '0.032036'
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: ''
+    headers:
+      PRIVATE-TOKEN:
+      - '***REDACTED***'
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - gl.example.com
+      user-agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://gl.example.com/api/v4/projects/definitely%2Fdoes-not-exist-xyz-123
+  response:
+    body:
+      string: '{"message":"404 Project Not Found"}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '35'
+      content-type:
+      - application/json
+      date:
+      - Tue, 21 Jul 2026 22:00:59 GMT
+      nel:
+      - '{"max_age": 0}'
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=63072000
+      vary:
+      - Origin
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-gitlab-meta:
+      - '{"correlation_id":"01KY3B4K9ECF2VFB0DNGA4Z43Z","version":"1"}'
+      x-request-id:
+      - 01KY3B4K9ECF2VFB0DNGA4Z43Z
+      x-runtime:
+      - '0.035966'
+    status:
+      code: 404
+      message: Not Found
+version: 1

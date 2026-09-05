@@ -1,0 +1,30 @@
+name: gitlab-bot
+
+services:
+  # One-shot: brings the schema up to head, then exits.
+  migrate:
+    build: .
+    image: gitlab-bot:latest
+    container_name: gitlab-bot-migrate
+    command: ["alembic", "upgrade", "head"]
+    env_file: .env
+    environment:
+      - TZ=Europe/Lisbon
+    restart: "no"
+    volumes:
+      - ./data:/data
+
+  gitlab-bot:
+    build: .
+    image: gitlab-bot:latest
+    container_name: gitlab-bot
+    command: ["python", "-m", "app"]
+    env_file: .env
+    environment:
+      - TZ=Europe/Lisbon
+    restart: unless-stopped
+    volumes:
+      - ./data:/data
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
